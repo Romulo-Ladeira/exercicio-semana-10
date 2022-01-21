@@ -1,9 +1,9 @@
 import './App.css';
-import {Lista} from './components/Lista/Lista'
+import {Calculadora} from './components/Calculadora'
 
 function App() {
   return (
-    <Lista/>
+    <Calculadora/>
   );
 }
 

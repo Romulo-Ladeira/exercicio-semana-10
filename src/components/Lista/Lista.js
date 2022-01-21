@@ -37,6 +37,7 @@ export const Lista = () => {
       const data = new Date().toString()
       dispatch({type:'ADICIONAR', payload:data})
       }}>adicionar data</button>
+  
   <button onClick={()=>{
       dispatch({type:'REMOVER'})
   }}>remover botão</button>
