@@ -1,17 +1,14 @@
 import './App.css';
-import {Calculadora} from './components/Calculadora'
-import {AutenticadorProvider} from './components/Autenticador/Context'
-import { useState } from 'react';
-import Botao from './components/Autenticador/Botao';
-import Autenticador from './components/Autenticador/Autenticador';
+
+import {ThemeProvider} from './components/ThemeContext/themeContext'
+import {Layout} from './components/ThemeContext/Layout';
 
 function App() {
  
   return (
-    <AutenticadorProvider>
-      <Autenticador/>
-      <Botao/>
-    </AutenticadorProvider>
+    <ThemeProvider>
+      <Layout/>
+    </ThemeProvider>
   );
     
     
